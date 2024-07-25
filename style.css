@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   box-sizing: border-box;
 }
 
@@ -19,7 +20,7 @@
 .light-mode {
   color: var(--primary-color);
   --secondary-color: rgb(0, 125, 203);
-  --background-theme:  rgb(255, 255, 255);
+  --background-theme: rgb(255, 255, 255);
   --gray: var(--primary-color);
   --white: #fff;
   --black: rgb(0, 0, 0);
@@ -106,7 +107,7 @@ nav ul li a:hover {
 }
 
 /* toggle mode button*/
- .theme {
+.theme {
   display: flex;
   align-items: center;
   -webkit-tap-highlight-color: transparent;
@@ -147,19 +148,18 @@ nav ul li a:hover {
 
 .theme__icon-part {
   border-radius: 50%;
-  box-shadow: 0.4em -0.4em 0 0.5em hsl(0,0%,100%) inset;
+  box-shadow: 0.4em -0.4em 0 0.5em hsl(0, 0%, 100%) inset;
   top: calc(50% - 0.5em);
   left: calc(50% - 0.5em);
   width: 1em;
   height: 1em;
   transition: box-shadow var(--transDur) ease-in-out,
-		opacity var(--transDur) ease-in-out,
-		transform var(--transDur) ease-in-out;
+    opacity var(--transDur) ease-in-out, transform var(--transDur) ease-in-out;
   transform: scale(0.5);
 }
 
 .theme__icon-part ~ .theme__icon-part {
-  background-color: hsl(0,0%,100%);
+  background-color: hsl(0, 0%, 100%);
   border-radius: 0.05em;
   top: 50%;
   left: calc(50% - 0.05em);
@@ -209,7 +209,7 @@ nav ul li a:hover {
 }
 
 .theme__toggle {
-  background-color: hsl(48,90%,85%);
+  background-color: hsl(48, 90%, 85%);
   border-radius: 25% / 50%;
   box-shadow: 0 0 0 0.125em var(--primaryT);
   padding: 0.25em;
@@ -218,12 +218,11 @@ nav ul li a:hover {
   -webkit-appearance: none;
   appearance: none;
   transition: background-color var(--transDur) ease-in-out,
-		box-shadow 0.15s ease-in-out,
-		transform var(--transDur) ease-in-out;
+    box-shadow 0.15s ease-in-out, transform var(--transDur) ease-in-out;
 }
 
 .theme__toggle:before {
-  background-color: hsl(48,90%,55%);
+  background-color: hsl(48, 90%, 55%);
   border-radius: 50%;
   content: "";
   width: 2.5em;
@@ -238,7 +237,7 @@ nav ul li a:hover {
 
 /* Checked */
 .theme__toggle:checked {
-  background-color: hsl(198,90%,15%);
+  background-color: hsl(198, 90%, 15%);
 }
 
 .theme__toggle:checked:before,
@@ -255,7 +254,7 @@ nav ul li a:hover {
 }
 
 .theme__toggle:checked ~ .theme__icon .theme__icon-part:nth-child(1) {
-  box-shadow: 0.2em -0.2em 0 0.2em hsl(0,0%,100%) inset;
+  box-shadow: 0.2em -0.2em 0 0.2em hsl(0, 0%, 100%) inset;
   transform: scale(1);
   top: 0.2em;
   left: -0.2em;
@@ -309,8 +308,7 @@ nav ul li a:hover {
   .theme__toggle:focus-visible {
     box-shadow: 0 0 0 0.125em var(--primary);
   }
-} 
-
+}
 
 /* header text animation */
 @keyframes header-text {
@@ -583,7 +581,7 @@ nav ul li a:hover {
   position: relative;
   width: 95%;
   border-radius: 10px;
-  transition: all .5ss;
+  transition: all 0.5ss;
   filter: grayscale(100%);
   &:hover {
     filter: grayscale(0);
@@ -635,13 +633,11 @@ nav ul li a:hover {
   bottom: -8px;
 }
 .skill-contents {
-
- display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
   grid-gap: 4px;
-
 }
-.skill-contents span{
+.skill-contents span {
   margin-top: 2rem;
   position: relative;
   border: 1px solid #009dff;
