@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./image/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu slideintop">
+                    <li><a href="#Header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times icons" onclick="closemenu()"></i>
+                </ul>
+
+                <label for="theme" class="theme" onclick="theme()">
+                    <span class="theme__toggle-wrap">
+                        <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark">
+                        <span class="theme__fill"></span>
+                        <span class="theme__icon">
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                        </span>
+                    </span>
+                </label>
+                <i class="fas fa-bars menu icons" onclick="openmenu()"></i>
+            </nav>
+
+            <!---------Intro-Text-------->
+            <div class="animate header-text">
+                <h1>
+                    <span class="header-text">Hi,</span><br>
+                    <span class="header-text">I'm Alain</span><br>
+                    <span class="header-text">A Front-End Developer.</span>
+                </h1>
+            </div>
+            <!-- ------- Download CV btn------ -->
+            <a href="image/Alain's CV.pdf" download class="btn btn-cv">Resumé</a>
+
+            <!-- --------Social media icons-------- -->
+            <div class="social-icons">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <!-- --------Bubbles-------->
+            <div class="bubbles-section" onclick="bubbles()">
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="bubble">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- - -----------about frame -------- -->
+    <div class="about-frame">
+        <span></span>
+    </div>
+
+    <!---- About ------>
+    <div id="About">
+        <div class="container">
+            <div class="row ">
+                <div class="about-column-1">
+                    <img src="./image/about.jpg" class="about-image">
+                </div>
+                <div class="about-column-2">
+                    <h1>About Me</h1>
+                    <p class="para-one">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus illo
+                        sed architecto
+                        autem odio qui neque eos fuga dicta, aliquam, similique animi aut odit molestias reprehenderit
+                    
+                        commodi itaque accusantium.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                        autem odio qui neque eos fuga dicta, aliquam, similique animi aut odit molestias reprehenderit
+                        commodi itaque accusantium.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                        autem odio qui neque eos fuga dicta, aliquam, similique animi aut odit molestias reprehenderit
+                        commodi itaque accusantium.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                        repellendus illo sed architecto
+                        autem odio qui neque eos fuga dicta, aliquam, similique animi aut odit molestias reprehenderit
+                        commodi itaque accusantium.</p>
+
+                    <div class="technical-skills">
+                        <h3>Professional Skills</h3>
+
+                        <div class="skill-contents">
+                                <span>Communication </span>
+                                <span>Problem Solving</span>
+                                <span>Continuous Learning</span>
+                                <span>Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------- Services ---------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code" style="font-size: 40px; margin-bottom: 20px;"></i>
+                    <h2>Web Develement</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non esse sapiente quo. ?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt" style="font-size: 40px; margin-bottom: 20px;"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non esse sapiente quo. ?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-desktop" style="font-size: 40px; margin-bottom: 20px;"></i>
+                    <h2>Mobile App Developement</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non esse sapiente quo. ?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------Portfolio------------>
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title"> Portfolio</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="image/E-shoping.jpeg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">E Commerce App</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <a href=""><i class="fas fa-link"></i> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="image/Music App.jpeg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Music App</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <a href=""><i class="fas fa-link"></i> </a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="image/E-Learning.jpeg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">E Learning App</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <a href=""><i class="fas fa-link"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!----------------Skills---------------->
+
+
+    <div id="Skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills">
+                <div class="progress-bar-container">
+                    <h2>JAVASCRIPT</h2>
+                    <div class="progress-label">
+                        <p class="prog-text">70%</p>
+                        <div class="progress-bar">
+                            <span class="percentage javascript"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <h2>HTML 5</h2>
+                    <div class="progress-label">
+                        <p class="prog-text">75%</p>
+                        <div class="progress-bar">
+                            <span class="percentage html"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <h2>CSS 3</h2>
+                    <div class="progress-label">
+                        <p class="prog-text">65%</p>
+                        <div class="progress-bar">
+                            <span class="percentage css"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <h2>REACT JS</h2>
+                    <div class="progress-label">
+                        <p class="prog-text">60%</p>
+                        <div class="progress-bar">
+                            <span class="percentage react"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <h2>BOOTSTRAP 5</h2>
+                    <div class="progress-label">
+                        <p class="prog-text">65%</p>
+                        <div class="progress-bar">
+                            <span class="percentage bootstrap"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <h2>TAILWIND</h2>
+                    <div class="progress-label">
+                        <p class="prog-text">55%</p>
+                        <div class="progress-bar">
+                            <span class="percentage tailwind"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------Contact-------------- -->
+
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-methods">
+                        <p><i class="fas fa-envelope contact-icon"></i> <a href="mailto:alainnyako95@gmail.com">Email:
+                                coderalain@gmail.com</a></p>
+                        <p><i class="fas fa-phone-square-alt contact-icon"></i>
+                            <a href="Tel:+237671307052">Mobile number: +237 683 069 036</a>
+                        </p>
+                        <p><i class="fas fa-location contact-icon"></i>
+                            Location: Cameroon, Centre
+                        </p>
+                    </div>
+                    <a href="image/Alain's CV.pdf" download class="btn btn-cv">Resumé</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="8" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn btn2 ">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="container">
+            <p>2024 Copyright &copy; Alain. Made with <i class="fas fa-heart" style="color: red;"></i> by Alain.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
